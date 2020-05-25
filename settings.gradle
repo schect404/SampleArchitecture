@@ -1,0 +1,4 @@
+rootProject.name='SampleArchitecture'
+include ':app'
+include ':domain'
+include ':data'

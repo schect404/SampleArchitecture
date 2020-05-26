@@ -17,7 +17,7 @@ abstract class BaseNavigator {
     }
 
     fun release() {
-        fragmentManager = WeakReference(null)
+        fragmentManager.clear()
     }
 
     fun FragmentManager.goWithAnimation(targetFragment: Fragment, vararg sharedViews: View) {

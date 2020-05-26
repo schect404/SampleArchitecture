@@ -1,4 +1,3 @@
 package com.example.samplearchitecture.base
 
-interface BaseModelIntent {
-}
+interface BaseModelIntent

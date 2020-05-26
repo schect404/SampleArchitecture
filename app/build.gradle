@@ -57,6 +57,9 @@ dependencies {
     implementation lifecycle.vmScope
     implementation lifecycle.lcScope
 
+    implementation deps.shimmer
+    implementation deps.lastAdapter
+
     implementation 'com.github.nitrico.lastadapter:lastadapter:2.3.0'
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

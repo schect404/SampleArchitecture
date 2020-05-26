@@ -113,6 +113,9 @@ lifecycle.lcScope = "androidx.lifecycle:lifecycle-runtime-ktx:${versions.lifecyc
 ext.lifecycle = lifecycle
 //endregion
 
+deps.shimmer = 'xyz.peridy.shimmer:shimmerlayout:1.1'
+deps.lastAdapter = 'com.github.nitrico.lastadapter:lastadapter:2.3.0'
+
 ext.deps = deps
 
 ext.versions = versions
